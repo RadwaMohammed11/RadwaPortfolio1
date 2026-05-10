@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Radwa Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="stars"></div>
+
+  <header>
+
+    <div class="logo">Radwa.</div>
+
+    <nav>
+      <a href="activities.html">Activities</a>
+      <a href="participations.html">Participations</a>
+      <a href="certificates.html">Certificates</a>
+      <a href="CV.html">CV</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+  </header>
+
+  <section class="hero">
+
+  <div class="hero-text">
+
+    <h1>
+      Hello, I'm
+      <span class="typing"></span>
+    </h1>
+    
+
+    <h3>Artificial Intelligence & Data Management Student</h3>
+
+    <p>
+      Passionate about leadership, volunteering, HR, PR, and technology.
+    </p>
+
+    <div class="hero-buttons">
+
+      <a href="activities.html" class="btn">Explore My Journey</a>
+
+      <a href="certificates.html" class="btn btn-outline">Certificates</a>
+
+    </div>
+
+  </div>
+
+  <div class="hero-image">
+
+    <img src="Profile.jpeg" alt="Radwa Profile">
+
+  </div>
+
+</section>
+
+
+<!-- AI Robot -->
+
+<div class="bot-container">
+
+  <!-- preview message -->
+  <div class="bot-preview">
+    <p>👋 Hi there!</p>
+    <span>Need help? Click me</span>
+  </div>
+
+  <!-- robot icon -->
+  <div class="bot-icon" onclick="toggleBot()">
+    🤖
+  </div>
+
+  <!-- chat box -->
+  <div class="bot-box" id="botBox">
+
+    <div class="bot-header">
+      AI Assistant
+      <span onclick="toggleBot()">✖</span>
+    </div>
+
+    <div class="bot-body">
+      <p>Hi 👋</p>
+      <p>I’m your portfolio assistant</p>
+    </div>
+
+  </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
